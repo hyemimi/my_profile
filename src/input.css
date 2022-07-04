@@ -1,8 +1,8 @@
 #button_create {
   position: relative;
   border: none;
-  min-width: 200px;
-  min-height: 50px;
+  min-width: 20%;
+  min-height: 60%;
   background: linear-gradient(
     90deg,
     rgba(129, 230, 217, 1) 0%,
@@ -44,18 +44,18 @@
   text-align: center;
   padding: 20px;
   background-color: rgb(238, 233, 245);
+  width: 100%;
 }
 #input_model input,
 textarea {
   margin-bottom: 20px;
-  width: 500px;
 }
 #input_model input {
   padding: 10px;
 }
 #input_model textarea {
   padding: 10px;
-  height: 150px;
+  height: 50%;
 }
 #Name,
 #Age,
