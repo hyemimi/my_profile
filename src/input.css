@@ -1,0 +1,76 @@
+#button_create {
+  position: relative;
+  border: none;
+  min-width: 200px;
+  min-height: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(129, 230, 217, 1) 0%,
+    rgba(79, 209, 197, 1) 100%
+  );
+  border-radius: 1000px;
+  color: darkslategray;
+  cursor: pointer;
+  box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+  font-weight: 700;
+  transition: 0.3s;
+  padding: 0.5%;
+}
+
+#input {
+  padding: 2ch;
+}
+#name {
+  padding: 2ch;
+}
+#age {
+  padding: 2ch;
+}
+#favorites {
+  padding: 2ch;
+}
+#major {
+  padding: 2ch;
+}
+#title {
+  padding: 1ch;
+  font-size: 2em;
+}
+#title h1 {
+  color: rgba(1, 1, 1, 0.64);
+}
+
+#input_model {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(238, 233, 245);
+}
+#input_model input,
+textarea {
+  margin-bottom: 20px;
+  width: 500px;
+}
+#input_model input {
+  padding: 10px;
+}
+#input_model textarea {
+  padding: 10px;
+  height: 150px;
+}
+#Name,
+#Age,
+#Favorites,
+#Major {
+  position: relative;
+  border: none;
+  min-width: 150px;
+  min-height: 50px;
+  background: rgb(238, 233, 245);
+  border-radius: 1000px;
+  color: darkslategray;
+  cursor: pointer;
+  box-shadow: 12px 12px 12px rgba(163, 131, 218, 0.64);
+  font-weight: 700;
+  transition: 0.3s;
+  padding: 0.5%;
+}

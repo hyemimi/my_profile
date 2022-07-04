@@ -1,0 +1,31 @@
+#profile {
+  position: relative;
+  background: linear-gradient(90deg, rgb(220, 222, 238) 0%, #7ddfdd76 100%);
+  border-color: azure;
+  margin-top: -20px;
+  font-size: 2em;
+  padding: 0;
+}
+
+#button {
+  position: relative;
+  border: none;
+  min-width: 200px;
+  min-height: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(129, 230, 217, 1) 0%,
+    rgba(79, 209, 197, 1) 100%
+  );
+  border-radius: 1000px;
+  color: darkslategray;
+  cursor: pointer;
+  box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+  font-weight: 700;
+  transition: 0.3s;
+  padding: 0.5%;
+}
+
+.p {
+  color: antiquewhite;
+}
