@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import "./index.css";
 import "./profile.css";
 function My_profile() {
   const user = useSelector((state) => state.user.value);
