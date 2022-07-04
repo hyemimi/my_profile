@@ -11,7 +11,7 @@ function My_profile() {
       <p>{user.favorites}</p>
       <p>{user.major}</p>
       <div>
-        <Link to="/">
+        <Link to="/my_profile">
           <button id="button">return</button>
         </Link>
       </div>
