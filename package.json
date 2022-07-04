@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://hyemimi.github.io/my_profile",
+  "homepage": "https://hyemimi.github.io/my_profile/",
   "eslintConfig": {
     "extends": [
       "react-app",

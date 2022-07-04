@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/my_profile" element={<Input />} />
-          <Route path="/my_profile_" element={<My_profile />} />
+          <Route path="/" element={<Input />} />
+          <Route path="/my_profile" element={<My_profile />} />
         </Routes>
       </Router>
     </div>
