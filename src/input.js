@@ -60,7 +60,7 @@ function Input() {
           ></textarea>
         </div>
         <div id="button_">
-          <Link to="/my_profile">
+          <Link to="/my_profile_">
             <button id="button_create" onClick={onClick}>
               CREATE
             </button>
